@@ -21,7 +21,8 @@
 
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-
+    SecondViewController *secondViewController = segue.destinationViewController;
+    secondViewController.str = self.textField.text;
 }
 
 - (void)didReceiveMemoryWarning {

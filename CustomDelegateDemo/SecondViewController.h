@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface SecondViewController : UIViewController
+@property NSString *str;
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end

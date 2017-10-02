@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SecondViewController.h"
 
 @interface FirstViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *textField;
-
 
 @end
 

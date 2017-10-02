@@ -84,7 +84,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RGs-xX-zZ5">
-                                <rect key="frame" x="56.5" y="123.5" width="207" height="30"/>
+                                <rect key="frame" x="56.5" y="167.5" width="207" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="207" id="88m-MD-hp2"/>
                                     <constraint firstAttribute="height" constant="30" id="mAj-Ar-3O6"/>
@@ -94,7 +94,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit Here" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uTh-U5-D8m">
-                                <rect key="frame" x="103.5" y="72" width="113" height="27.5"/>
+                                <rect key="frame" x="103.5" y="116" width="113" height="27.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27.5" id="67g-mU-VKb"/>
                                     <constraint firstAttribute="width" constant="113" id="uOd-mZ-pPP"/>
@@ -114,6 +114,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="s1k-Q9-1lQ"/>
                     <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="textField" destination="RGs-xX-zZ5" id="ftK-jy-koX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s3j-nr-UrU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

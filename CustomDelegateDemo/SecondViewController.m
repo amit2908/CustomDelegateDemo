@@ -13,11 +13,11 @@
 @end
 
 @implementation SecondViewController
+@synthesize str;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-   
-    [self.navigationController setNavigationBarHidden:false animated:true];
+    [self.textField setText: str];
 }
 
 - (void)didReceiveMemoryWarning {
