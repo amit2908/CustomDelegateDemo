@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C83C53741F82813A00FDFE62 /* CustomDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomDelegate.h; sourceTree = "<group>"; };
 		C8E925FA1F812DA400F5D9BC /* CustomDelegateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDelegateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8E925FE1F812DA400F5D9BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8E926001F812DA400F5D9BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +69,7 @@
 				C8E926061F812DA400F5D9BC /* Main.storyboard */,
 				C8E926141F813E8F00F5D9BC /* SecondViewController.h */,
 				C8E926151F813E8F00F5D9BC /* SecondViewController.m */,
+				C83C53741F82813A00FDFE62 /* CustomDelegate.h */,
 				C8E926091F812DA400F5D9BC /* Assets.xcassets */,
 				C8E9260B1F812DA400F5D9BC /* LaunchScreen.storyboard */,
 				C8E9260E1F812DA400F5D9BC /* Info.plist */,
@@ -320,6 +322,7 @@
 				C8E926131F812DA400F5D9BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
